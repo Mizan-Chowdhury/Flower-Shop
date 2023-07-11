@@ -12,17 +12,17 @@
   justify-content: space-around;
   align-items: center;
   padding: 50px 180px 0 200px;
-  gap: 110px;
+  gap: 100px;
 }
 
 .banner-heading {
   color: #272727;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 800;
 }
 .banner-description {
   color: rgba(39, 39, 39, 0.6);
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 400;
   line-height: 20px;
   margin: 20px 0;
@@ -33,7 +33,7 @@
   color: #fff;
   font-size: 15px;
   font-weight: 700;
-  padding: 10px 25px;
+  padding: 14px 30px;
   border: none;
 }
 .banner-img {
@@ -123,7 +123,7 @@ main {
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.1);
 }
-.sort-hradinh{
+.sort-hradinh {
   padding-top: 20px;
 }
 .sort-container {
@@ -198,7 +198,7 @@ main {
   font-weight: 700;
   border: none;
   padding: 5px 80px;
-  margin-top: 5px;
+  margin-top: 8px;
 }
 .product-price {
   font-size: 15px;
@@ -294,7 +294,16 @@ main {
   border: none;
   padding: 10px 280px 10px 5px;
   margin-top: 30px;
-  margin-right: 10px;
+  margin-right: 8px;
+}
+.deal-btn {
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  padding: 10px 20px;
 }
 /* latest deal section ends here */
 
