@@ -49,10 +49,7 @@
 /* banner section ends here */
 
 /* bonus section starts here */
-main {
-  width: 70%;
-  margin: auto;
-}
+
 .flowers-heading {
   text-align: center;
   color: #272727;
@@ -70,14 +67,16 @@ main {
   margin: auto;
 }
 .flower-container {
+  width: 80%;
+  margin: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin-top: 50px;
 }
 .flower-1 {
-  width: 280px;
-  height: 330px;
+  width: 300px;
+  height: 350px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
   background-image: url("images/pngwing\ 6.png");
@@ -87,8 +86,8 @@ main {
 }
 
 .flower-2 {
-  width: 280px;
-  height: 330px;
+  width: 300px;
+  height: 350px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(5, 151, 160, 0.15);
   background-image: url("images/pngwing\ 5.png");
@@ -97,8 +96,8 @@ main {
   background-position: center bottom;
 }
 .flower-3 {
-  width: 280px;
-  height: 330px;
+  width: 300px;
+  height: 350px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(71, 125, 17, 0.15);
   background-image: url("images/pngwing\ 7.png");
@@ -119,6 +118,8 @@ main {
 }
 .sort-section {
   height: 90vh;
+  width: 80%;
+  margin: auto;
   margin-top: 100px;
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.1);
@@ -212,13 +213,15 @@ main {
 
 /* optional section starts here */
 .info-container {
+  width: 80%;
+  margin: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
   margin-top: 100px;
-  padding: 80px;
+  padding: 80px 0;
   text-align: center;
 }
 /* optional section ends here */
@@ -231,12 +234,12 @@ main {
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
   margin-top: 100px;
-  padding: 50px 100px;
-  gap: 100px;
+  padding: 150px 200px;
+  gap: 120px;
   text-align: center;
 }
 .deal-img {
-  height: 200px;
+  height: 400px;
 }
 .deal-heading {
   color: #272727;
@@ -248,7 +251,7 @@ main {
   color: #e55473;
 }
 .deal-description {
-  width: 90%;
+  width: 80%;
   margin: auto;
   color: rgba(39, 39, 39, 0.6);
   font-size: 13px;
@@ -261,10 +264,12 @@ main {
 
 /*instagram section starts here */
 .insta-img {
-  height: 220px;
+  height: 250px;
   width: 220px;
 }
 .insta-flowers-container {
+  width: 80%;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -274,12 +279,15 @@ main {
 
 /* latest deal section starts here */
 .latest-deal-container {
+  width: 80%;
+  margin: auto;
   text-align: center;
   background-image: url("images/Rectangle\ 9.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 90px 0;
-  margin: 100px 0;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 .deal-heading {
   margin-top: 10px;
