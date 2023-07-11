@@ -1,0 +1,323 @@
+/* banner section starts here */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.banner-container {
+  height: 85vh;
+  background: rgba(229, 84, 115, 0.1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 180px 0 200px;
+  gap: 110px;
+}
+
+.banner-heading {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.banner-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 20px 0;
+}
+.banner-btn {
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px 25px;
+  border: none;
+}
+.banner-img {
+  width: 440px;
+  height: 550px;
+  margin-bottom: -5px;
+
+  /* background-image: url("images/pngwing 10.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+/* banner section ends here */
+
+/* bonus section starts here */
+main {
+  width: 70%;
+  margin: auto;
+}
+.flowers-heading {
+  text-align: center;
+  color: #272727;
+  font-size: 30px;
+  font-weight: 800;
+  margin: 120px 0 20px 0;
+}
+.flowers-description {
+  text-align: center;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 55%;
+  margin: auto;
+}
+.flower-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+.flower-1 {
+  width: 280px;
+  height: 330px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  background-image: url("images/pngwing\ 6.png");
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: center bottom;
+}
+
+.flower-2 {
+  width: 280px;
+  height: 330px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  background-image: url("images/pngwing\ 5.png");
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: center bottom;
+}
+.flower-3 {
+  width: 280px;
+  height: 330px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  background-image: url("images/pngwing\ 7.png");
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: center bottom;
+}
+.flower-img {
+  width: 200px;
+  height: 250px;
+}
+.flower-name {
+  margin: 10px 0 0 80px;
+  text-decoration: underline;
+  color: #272727;
+  font-size: 15px;
+  font-weight: 700;
+}
+.sort-section {
+  height: 90vh;
+  margin-top: 100px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.1);
+}
+.sort-hradinh{
+  padding-top: 20px;
+}
+.sort-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 100px;
+}
+#sort {
+  border: none;
+  padding: 5px;
+  border-radius: 8px;
+  background: #fff;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+}
+.search {
+  border: none;
+  padding: 4px 40px 7px 5px;
+  background: #fff;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+}
+.search-btn {
+  padding: 7px;
+  background: #fff;
+  border: none;
+  margin-left: -5px;
+  margin-top: -5px;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px 50px;
+}
+.card {
+  height: 380px;
+  width: 250px;
+  box-shadow: 1px 2px 10px gray;
+  border-radius: 5px;
+  background: #fff;
+  text-align: center;
+}
+.card-img {
+  width: 100%;
+  height: 180px;
+  border-radius: 5px;
+}
+.card-heading {
+  color: #272727;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 800;
+  margin-top: 10px;
+}
+.card-des {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  margin: 15px 20px 40px 20px;
+}
+.card-btn {
+  border-radius: 3px;
+  background: #e9e9e9;
+  color: #4d4d4d;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  padding: 5px 80px;
+  margin-top: 5px;
+}
+.product-price {
+  font-size: 15px;
+}
+.product-rating {
+  font-size: 12px;
+  color: rgba(39, 39, 39, 0.6);
+  font-weight: 700;
+}
+/* bonus section ends here */
+
+/* optional section starts here */
+.info-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin-top: 100px;
+  padding: 80px;
+  text-align: center;
+}
+/* optional section ends here */
+
+/* hot deal section starts here */
+.deal-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  margin-top: 100px;
+  padding: 50px 100px;
+  gap: 100px;
+  text-align: center;
+}
+.deal-img {
+  height: 200px;
+}
+.deal-heading {
+  color: #272727;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.color-word {
+  color: #e55473;
+}
+.deal-description {
+  width: 90%;
+  margin: auto;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+/* hot deal section ends here */
+
+/*instagram section starts here */
+.insta-img {
+  height: 220px;
+  width: 220px;
+}
+.insta-flowers-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+/*instagram section ends here */
+
+/* latest deal section starts here */
+.latest-deal-container {
+  text-align: center;
+  background-image: url("images/Rectangle\ 9.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 90px 0;
+  margin: 100px 0;
+}
+.deal-heading {
+  margin-top: 10px;
+}
+#email {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+  padding: 10px 280px 10px 5px;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+/* latest deal section ends here */
+
+/* footer starts here */
+.footer-container {
+  height: 40vh;
+  text-align: center;
+  background: #111010;
+}
+.footer-header {
+  color: #ffff;
+  padding-top: 70px;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 30px;
+  margin: 20px 410px;
+}
+.footer-des-2 {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+  font-weight: 400;
+}
+/* footer ends here */

@@ -1,22 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
     <title>Assignment-1</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-
+      <!-- banner section starts here -->
+      <section>
+        <div class="banner-container">
+          <div class="banner">
+            <h1 class="banner-heading">
+              Let's make <br />
+              beautiful flowers a part of your life.
+            </h1>
+            <p class="banner-description">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters.
+            </p>
+            <button class="banner-btn">Shop Now</button>
+          </div>
+          <div class="banner-img">
+            <img class="banner-img" src="images/pngwing 10.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- banner section ends here -->
     </header>
 
     <main>
+      <!-- bonus section starts here -->
+      <section>
+        <h1 class="flowers-heading">Our Featured Flowers</h1>
+        <p class="flowers-description">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout.
+        </p>
 
+        <div class="flower-container">
+          <div>
+            <div class="flower-1"></div>
+            <p class="flower-name">Pink Flower Tree</p>
+          </div>
+
+          <div>
+            <div class="flower-2"></div>
+            <p class="flower-name">Pink Flower Tree</p>
+          </div>
+
+          <div>
+            <div class="flower-3"></div>
+            <p class="flower-name">Yellow Flower Tree</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="sort-section">
+        <h1 class="flowers-heading sort-hradinh">Our most solded flowers</h1>
+        <div class="sort-container">
+          <div class="sort">
+            <label for="sort">Sort By</label>
+            <select name="sort" id="sort">
+              <option value="">most sold first</option>
+              <option value="">most rated first</option>
+              <option value="">cheapest first</option>
+              <option value="">newest first</option>
+              <option value="">biggest discount first</option>
+            </select>
+          </div>
+
+          <div>
+            <input class="search" type="text" placeholder="Search product" />
+            <button class="search-btn">
+              <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+
+
+        <div class="cards">
+          <div class="card">
+            <img src="images/top4 (1).jpg" alt="" class="card-img">
+            <h1 class="card-heading">Red dahlia flower</h1>
+            <p class="card-des">Flowers are one of the most beautiful gifts given to us from Allah.
+            </p>
+            <h4 class="product-price">Price: $210.99</h4>
+            <p class="product-rating">Rating: 3.0/5</p>
+            <button class="card-btn">Add to card</button>
+          </div>
+
+
+          <div class="card">
+            <img src="images/top3.jpg" alt="" class="card-img">
+            <h3 class="card-heading">Stunning daisy flower</h3>
+            <p class="card-des">Flowers are one of the most beautiful gifts given to us from Allah.
+            </p>
+            <h4 class="product-price">Price: $340.99</h4>
+            <p class="product-rating">Rating: 4.0/5</p>
+            <button class="card-btn">Add to card</button>
+          </div>
+
+
+          <div class="card">
+            <img src="images/top2.jpg" alt="" class="card-img">
+            <h1 class="card-heading">African daisy flower</h1>
+            <p class="card-des">Flowers are one of the most beautiful gifts given to us from Allah.</p>
+            <h4 class="product-price">Price: $420.99</h4>
+            <p class="product-rating">Rating: 4.5/5</p>
+            <button class="card-btn">Add to card
+            </button>
+          </div>
+        
+      </section>
+
+      <!-- bonus section ends here -->
+
+      <!-- optional section starts here -->
+      <section>
+        <div class="info-container">
+          <div class="info">
+            <img src="images/Group 57.png" alt="" class="info-img" />
+            <p class="info-des">Same Day Delivery. Click & Collect.</p>
+          </div>
+          <div class="info">
+            <img src="images/Group 58.png" alt="" class="info-img" />
+            <p class="info-des">Fresh Flowers. Local Growers.</p>
+          </div>
+          <div class="info">
+            <img src="images/Group 59.png" alt="" class="info-img" />
+            <p class="info-des">24/7 Free Support.</p>
+          </div>
+        </div>
+      </section>
+      <!-- optional section ends here -->
+
+      <!-- hot deal section starts here -->
+      <section>
+        <div class="deal-container">
+          <div>
+            <h1 class="deal-heading">
+              Hot Deal ! Sale Up To 25% <span class="color-word">Off</span>
+            </h1>
+            <p class="deal-description">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout.
+            </p>
+            <button class="banner-btn btn">Sing Up</button>
+          </div>
+          <div>
+            <img src="images/pngwing 8.png" alt="" class="deal-img" />
+          </div>
+        </div>
+      </section>
+      <!-- hot deal section ends here -->
+
+      <!-- instagram section starts here -->
+      <section>
+        <h1 class="flowers-heading">Instagram</h1>
+        <p class="flowers-description">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout.
+        </p>
+        <div class="insta-flowers-container">
+          <img src="images/Flower 01.png" alt="" class="insta-img" />
+          <img src="images/Rectangle 4.png" alt="" class="insta-img" />
+          <img src="images/Rectangle 5.png" alt="" class="insta-img" />
+          <img src="images/Rectangle 6.png" alt="" class="insta-img" />
+        </div>
+      </section>
+      <!-- instagram section ends here -->
+
+      <!-- latest deal section starts here -->
+      <div class="latest-deal-container">
+        <h1 class="flowers-heading deal-heading">Get The Latest Deals</h1>
+        <p class="flowers-description">$30 coupon for first shopping</p>
+        <input type="email" id="email" placeholder="Enter your email here..." />
+        <button class="banner-btn">Subscribe</button>
+      </div>
+      <!-- latest deal section ends here -->
     </main>
 
     <footer>
-        
+      <!-- footer section starts here -->
+      <div class="footer-container">
+        <h1 class="footer-header">
+          <span class="color-word">Flower</span>Shop
+        </h1>
+        <p class="footer-description">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout.
+        </p>
+        <p class="footer-des-2">
+          @2020-2023, FlowerShop.com. All rights reserved.
+        </p>
+      </div>
+      <!-- footer section ends here -->
     </footer>
-</body>
+  </body>
 </html>
