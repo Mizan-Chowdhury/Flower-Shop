@@ -40,11 +40,6 @@
   width: 440px;
   height: 550px;
   margin-bottom: -5px;
-
-  /* background-image: url("images/pngwing 10.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center; */
 }
 /* banner section ends here */
 
@@ -75,8 +70,8 @@
   margin-top: 50px;
 }
 .flower-1 {
-  width: 300px;
-  height: 350px;
+  width: 330px;
+  height: 380px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
   background-image: url("images/pngwing\ 6.png");
@@ -86,18 +81,18 @@
 }
 
 .flower-2 {
-  width: 300px;
-  height: 350px;
+  width: 330px;
+  height: 380px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(5, 151, 160, 0.15);
   background-image: url("images/pngwing\ 5.png");
   background-repeat: no-repeat;
   background-size: 250px;
-  background-position: center bottom;
+  background-position: center bottom 30px;
 }
 .flower-3 {
-  width: 300px;
-  height: 350px;
+  width: 330px;
+  height: 380px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(71, 125, 17, 0.15);
   background-image: url("images/pngwing\ 7.png");
@@ -110,7 +105,7 @@
   height: 250px;
 }
 .flower-name {
-  margin: 10px 0 0 80px;
+  margin: 10px 0 0 110px;
   text-decoration: underline;
   color: #272727;
   font-size: 15px;
@@ -264,8 +259,8 @@
 
 /*instagram section starts here */
 .insta-img {
-  height: 250px;
-  width: 220px;
+  height: 280px;
+  width: 250px;
 }
 .insta-flowers-container {
   width: 80%;
@@ -300,7 +295,7 @@
   border-radius: 8px;
   background: #fff;
   border: none;
-  padding: 10px 280px 10px 5px;
+  padding: 15px 300px 15px 5px;
   margin-top: 30px;
   margin-right: 8px;
 }
@@ -311,7 +306,7 @@
   font-size: 15px;
   font-weight: 500;
   border: none;
-  padding: 10px 20px;
+  padding: 15px 25px;
 }
 /* latest deal section ends here */
 
